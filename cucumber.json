@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-04-12T22:17:00.847Z",
+        "start_timestamp": "2020-04-12T22:46:58.087Z",
         "before": [
           {
             "result": {
-              "duration": 11903000000,
+              "duration": 5795000000,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 126000000,
+              "duration": 112000000,
               "status": "passed"
             },
             "match": {
@@ -35,8 +35,9 @@
         "steps": [
           {
             "result": {
-              "duration": 53000000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d80.0.3987.163)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Aruns-MacBook-Pro.local\u0027, ip: \u0027fe80:0:0:0:c7a:6f14:d8d1:6322%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.14.3\u0027, java.version: \u00271.8.0_202\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/_x/tpbg0k6d6t3...}, goog:chromeOptions: {debuggerAddress: localhost:64953}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 8090915b511a3b538e3929641d413f43\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\n\tat org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)\n\tat com.automationpractice.pages.actions.UserAccountPageActions.checkForTitle(UserAccountPageActions.java:73)\n\tat steps.AddtoCartandPaymentSteps.user_is_on_the_Automation_Practice_home_page(AddtoCartandPaymentSteps.java:178)\n\tat ✽.user is on the Automation Practice home page(file:///Users/arun/Documents/TestProject/src/test/resources/FeatureFiles/AutomationPractice.feature:5)\n",
+              "duration": 104000000,
+              "status": "failed"
             },
             "line": 5,
             "name": "user is on the Automation Practice home page",
@@ -47,8 +48,7 @@
           },
           {
             "result": {
-              "duration": 4444000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 6,
             "name": "I click on the Sign in Page",
@@ -59,8 +59,7 @@
           },
           {
             "result": {
-              "duration": 7000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 7,
             "name": "I should be able to view the Sign In page",
@@ -77,11 +76,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-04-12T22:17:17.514Z",
+        "start_timestamp": "2020-04-12T22:47:04.236Z",
         "before": [
           {
             "result": {
-              "duration": 9718000000,
+              "duration": 3273000000,
               "status": "passed"
             },
             "match": {
@@ -96,7 +95,7 @@
         "after": [
           {
             "result": {
-              "duration": 183000000,
+              "duration": 109000000,
               "status": "passed"
             },
             "match": {
@@ -109,8 +108,9 @@
         "steps": [
           {
             "result": {
-              "duration": 4253000000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d80.0.3987.163)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Aruns-MacBook-Pro.local\u0027, ip: \u0027fe80:0:0:0:c7a:6f14:d8d1:6322%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.14.3\u0027, java.version: \u00271.8.0_202\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/_x/tpbg0k6d6t3...}, goog:chromeOptions: {debuggerAddress: localhost:65011}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: dae6efa8dbd477c653fc6ce728221b4d\n*** Element info: {Using\u003dcss selector, value\u003da.login}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy17.click(Unknown Source)\n\tat com.automationpractice.pages.actions.HomePageActions.clickonSignIn(HomePageActions.java:17)\n\tat steps.AddtoCartandPaymentSteps.user_is_on_the_Sign_in_home_page(AddtoCartandPaymentSteps.java:26)\n\tat ✽.user is on the Sign in home page(file:///Users/arun/Documents/TestProject/src/test/resources/FeatureFiles/AutomationPractice.feature:10)\n",
+              "duration": 11000000,
+              "status": "failed"
             },
             "line": 10,
             "name": "user is on the Sign in home page",
@@ -121,8 +121,8 @@
           },
           {
             "result": {
-              "duration": 256000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 11,
             "name": "I provide the email address",
@@ -133,8 +133,8 @@
           },
           {
             "result": {
-              "duration": 4120000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 12,
             "name": "I click on the Create an account button",
@@ -145,8 +145,8 @@
           },
           {
             "result": {
-              "duration": 266000000,
-              "status": "passed"
+              "duration": 5000000,
+              "status": "skipped"
             },
             "line": 13,
             "name": "I enter the First name \u003cFirstName\u003e and Last Name \u003cLastName\u003e and Password \u003cPassword\u003e",
@@ -173,8 +173,8 @@
           },
           {
             "result": {
-              "duration": 302000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 16,
             "name": "I select the Date \u003cDate\u003e Month \u003cMonth\u003e and Year \u003cYear\u003e",
@@ -201,8 +201,8 @@
           },
           {
             "result": {
-              "duration": 556000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 19,
             "name": "I select the address details with FirstName \u003cFirstName\u003e LastName \u003cLastName\u003e Address \u003cAddress\u003e City \u003cCity\u003e State \u003cState\u003e ZipCode \u003cPostalCode\u003e Country \u003cCountry\u003e MobilePhone \u003cPhoneNumber\u003e",
@@ -239,8 +239,8 @@
           },
           {
             "result": {
-              "duration": 3292000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 22,
             "name": "I click on the Register button",
@@ -251,8 +251,7 @@
           },
           {
             "result": {
-              "duration": 3543000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 23,
             "name": "I navigate to dress tab",
@@ -263,8 +262,7 @@
           },
           {
             "result": {
-              "duration": 4330000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 24,
             "name": "I Select a dress and Add to cart",
@@ -275,8 +273,8 @@
           },
           {
             "result": {
-              "duration": 3976000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 25,
             "name": "Click on the Proceed to checkout on Summary tab",
@@ -287,8 +285,8 @@
           },
           {
             "result": {
-              "duration": 1928000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 26,
             "name": "Click on the Proceed to checkout on Address tab",
@@ -299,8 +297,8 @@
           },
           {
             "result": {
-              "duration": 3436000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 27,
             "name": "I check the Terms of service and Click on the Proceed to checkout on Shipping tab",
@@ -311,8 +309,8 @@
           },
           {
             "result": {
-              "duration": 1112000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 28,
             "name": "I click on the Pay by wire option",
@@ -323,8 +321,8 @@
           },
           {
             "result": {
-              "duration": 2148000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 29,
             "name": "I click on the I confirm my order",
@@ -335,8 +333,7 @@
           },
           {
             "result": {
-              "duration": 5000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 30,
             "name": "I should be able to view the order confirmation page",
@@ -348,11 +345,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-04-12T22:18:00.954Z",
+        "start_timestamp": "2020-04-12T22:47:07.677Z",
         "before": [
           {
             "result": {
-              "duration": 8722000000,
+              "duration": 5679000000,
               "status": "passed"
             },
             "match": {
@@ -367,7 +364,7 @@
         "after": [
           {
             "result": {
-              "duration": 115000000,
+              "duration": 114000000,
               "status": "passed"
             },
             "match": {
@@ -380,8 +377,9 @@
         "steps": [
           {
             "result": {
-              "duration": 4506000000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d80.0.3987.163)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Aruns-MacBook-Pro.local\u0027, ip: \u0027fe80:0:0:0:c7a:6f14:d8d1:6322%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.14.3\u0027, java.version: \u00271.8.0_202\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/_x/tpbg0k6d6t3...}, goog:chromeOptions: {debuggerAddress: localhost:65058}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 86e5aee000545fd073c468e063b2045b\n*** Element info: {Using\u003dcss selector, value\u003da.login}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy17.click(Unknown Source)\n\tat com.automationpractice.pages.actions.HomePageActions.clickonSignIn(HomePageActions.java:17)\n\tat steps.AddtoCartandPaymentSteps.user_is_on_the_Sign_in_home_page(AddtoCartandPaymentSteps.java:26)\n\tat ✽.user is on the Sign in home page(file:///Users/arun/Documents/TestProject/src/test/resources/FeatureFiles/AutomationPractice.feature:33)\n",
+              "duration": 10000000,
+              "status": "failed"
             },
             "line": 33,
             "name": "user is on the Sign in home page",
@@ -392,8 +390,7 @@
           },
           {
             "result": {
-              "duration": 149000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 34,
             "name": "I provide the existing email address \u003cemail\u003e",
@@ -416,8 +413,7 @@
           },
           {
             "result": {
-              "duration": 4084000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 37,
             "name": "I click on the Create an account button",
@@ -428,8 +424,7 @@
           },
           {
             "result": {
-              "duration": 44000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 38,
             "name": "I should be getting an error message stating account already exists",
@@ -441,12 +436,13 @@
         ]
       },
       {
-        "start_timestamp": "2020-04-12T22:18:18.587Z",
+        "start_timestamp": "2020-04-12T22:47:13.497Z",
         "before": [
           {
             "result": {
-              "duration": 8926000000,
-              "status": "passed"
+              "error_message": "java.lang.AssertionError: null\n\tat org.testng.Assert.fail(Assert.java:97)\n\tat org.testng.Assert.fail(Assert.java:102)\n\tat com.automationpractice.testengine.TestDriver.initiateDriverSession(TestDriver.java:35)\n\tat steps.ServiceHooks.setUp(ServiceHooks.java:15)\n",
+              "duration": 3034000000,
+              "status": "failed"
             },
             "match": {
               "location": "steps.ServiceHooks.setUp()"
@@ -460,7 +456,7 @@
         "after": [
           {
             "result": {
-              "duration": 118000000,
+              "duration": 84000000,
               "status": "passed"
             },
             "match": {
@@ -473,8 +469,8 @@
         "steps": [
           {
             "result": {
-              "duration": 4244000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 41,
             "name": "user is on the Sign in home page",
@@ -485,8 +481,8 @@
           },
           {
             "result": {
-              "duration": 3203000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 42,
             "name": "I provide the existing email address \u003cemail\u003e and password \u003cpassword\u003e in the already registered section",
@@ -511,8 +507,8 @@
           },
           {
             "result": {
-              "duration": 7000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 45,
             "name": "I should be able to login and land in the account me page",
@@ -524,11 +520,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-04-12T22:18:35.095Z",
+        "start_timestamp": "2020-04-12T22:47:16.628Z",
         "before": [
           {
             "result": {
-              "duration": 8346000000,
+              "duration": 3741000000,
               "status": "passed"
             },
             "match": {
@@ -543,7 +539,7 @@
         "after": [
           {
             "result": {
-              "duration": 117000000,
+              "duration": 91000000,
               "status": "passed"
             },
             "match": {
@@ -556,8 +552,9 @@
         "steps": [
           {
             "result": {
-              "duration": 4225000000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d80.0.3987.163)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Aruns-MacBook-Pro.local\u0027, ip: \u0027fe80:0:0:0:c7a:6f14:d8d1:6322%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.14.3\u0027, java.version: \u00271.8.0_202\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/_x/tpbg0k6d6t3...}, goog:chromeOptions: {debuggerAddress: localhost:65154}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 9d0fa77186a39621c821887c01bfc45b\n*** Element info: {Using\u003dcss selector, value\u003da.login}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy17.click(Unknown Source)\n\tat com.automationpractice.pages.actions.HomePageActions.clickonSignIn(HomePageActions.java:17)\n\tat steps.AddtoCartandPaymentSteps.user_is_on_the_Sign_in_home_page(AddtoCartandPaymentSteps.java:26)\n\tat ✽.user is on the Sign in home page(file:///Users/arun/Documents/TestProject/src/test/resources/FeatureFiles/AutomationPractice.feature:49)\n",
+              "duration": 6000000,
+              "status": "failed"
             },
             "line": 49,
             "name": "user is on the Sign in home page",
@@ -568,8 +565,8 @@
           },
           {
             "result": {
-              "duration": 236000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 50,
             "name": "I provide the email address",
@@ -580,8 +577,8 @@
           },
           {
             "result": {
-              "duration": 4070000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 51,
             "name": "I click on the Create an account button",
@@ -592,8 +589,8 @@
           },
           {
             "result": {
-              "duration": 246000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 52,
             "name": "I enter the First name \u003cFirstName\u003e and Last Name \u003cLastName\u003e and Password \u003cPassword\u003e",
@@ -620,8 +617,8 @@
           },
           {
             "result": {
-              "duration": 257000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 55,
             "name": "I select the Date \u003cDate\u003e Month \u003cMonth\u003e and Year \u003cYear\u003e",
@@ -648,8 +645,8 @@
           },
           {
             "result": {
-              "duration": 548000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 58,
             "name": "I select the address details with FirstName \u003cFirstName\u003e LastName \u003cLastName\u003e Address \u003cAddress\u003e City \u003cCity\u003e State \u003cState\u003e ZipCode \u003cPostalCode\u003e Country \u003cCountry\u003e MobilePhone \u003cPhoneNumber\u003e",
@@ -686,8 +683,8 @@
           },
           {
             "result": {
-              "duration": 3040000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 61,
             "name": "I click on the Register button",
