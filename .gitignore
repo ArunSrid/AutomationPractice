@@ -1,0 +1,6 @@
+.idea/
+target/
+Test-output/
+.classpath
+.metadata/
+.settings/

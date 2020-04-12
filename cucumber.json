@@ -1,0 +1,709 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-04-12T22:17:00.847Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11903000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ServiceHooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "The application home page is identifiable and user clicks on sign in option",
+        "description": "",
+        "id": "automation-practice-workflow;the-application-home-page-is-identifiable-and-user-clicks-on-sign-in-option",
+        "after": [
+          {
+            "result": {
+              "duration": 126000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ServiceHooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 53000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the Automation Practice home page",
+            "match": {
+              "location": "steps.AddtoCartandPaymentSteps.user_is_on_the_Automation_Practice_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4444000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on the Sign in Page",
+            "match": {
+              "location": "steps.AddtoCartandPaymentSteps.i_click_on_the_Sign_in_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should be able to view the Sign In page",
+            "match": {
+              "location": "steps.AddtoCartandPaymentSteps.i_should_be_able_to_view_the_Sign_In_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@valid"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-12T22:17:17.514Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9718000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ServiceHooks.setUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Create an account and select a product and add to cart and complete the payment",
+        "description": "",
+        "id": "automation-practice-workflow;create-an-account-and-select-a-product-and-add-to-cart-and-complete-the-payment",
+        "after": [
+          {
+            "result": {
+              "duration": 183000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ServiceHooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4253000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is on the Sign in home page",
+            "match": {
+              "location": "steps.AddtoCartandPaymentSteps.user_is_on_the_Sign_in_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 256000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I provide the email address",
+            "match": {
+              "location": "steps.AddtoCartandPaymentSteps.i_provide_the_email_address()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4120000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on the Create an account button",
+            "match": {
+              "location": "steps.AddtoCartandPaymentSteps.i_click_on_the_Create_an_account_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 266000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter the First name \u003cFirstName\u003e and Last Name \u003cLastName\u003e and Password \u003cPassword\u003e",
+            "match": {
+              "location": "steps.AddtoCartandPaymentSteps.i_enter_the_First_name_FirstName_and_Last_Name_LastName_and_Password_Password(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "FirstName",
+                  "LastName",
+                  "Password"
+                ]
+              },
+              {
+                "cells": [
+                  "Arun",
+                  "Srid",
+                  "Password123"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 302000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I select the Date \u003cDate\u003e Month \u003cMonth\u003e and Year \u003cYear\u003e",
+            "match": {
+              "location": "steps.AddtoCartandPaymentSteps.i_select_the_Date_Date_Month_Month_and_Year_Year(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Date",
+                  "Month",
+                  "Year"
+                ]
+              },
+              {
+                "cells": [
+                  "1",
+                  "3",
+                  "1980"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 556000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I select the address details with FirstName \u003cFirstName\u003e LastName \u003cLastName\u003e Address \u003cAddress\u003e City \u003cCity\u003e State \u003cState\u003e ZipCode \u003cPostalCode\u003e Country \u003cCountry\u003e MobilePhone \u003cPhoneNumber\u003e",
+            "match": {
+              "location": "steps.AddtoCartandPaymentSteps.i_select_the_address_details_with_FirstName_FirstName_LastName_LastName_Address_Address_City_City_State_State_ZipCode_PostalCode_Country_Country_MobilePhone_PhoneNumber(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "FirstName",
+                  "LastName",
+                  "Address",
+                  "City",
+                  "State",
+                  "PostalCode",
+                  "Country",
+                  "PhoneNumber"
+                ]
+              },
+              {
+                "cells": [
+                  "Arun",
+                  "Srid",
+                  "436A",
+                  "US",
+                  "5",
+                  "00000",
+                  "21",
+                  "85462323"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3292000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I click on the Register button",
+            "match": {
+              "location": "steps.AddtoCartandPaymentSteps.i_click_on_the_Register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3543000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I navigate to dress tab",
+            "match": {
+              "location": "steps.AddtoCartandPaymentSteps.i_navigate_to_dress_tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4330000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I Select a dress and Add to cart",
+            "match": {
+              "location": "steps.AddtoCartandPaymentSteps.i_Select_a_dress_and_Add_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3976000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Click on the Proceed to checkout on Summary tab",
+            "match": {
+              "location": "steps.AddtoCartandPaymentSteps.click_on_the_Proceed_to_checkout_on_Summary_tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1928000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Click on the Proceed to checkout on Address tab",
+            "match": {
+              "location": "steps.AddtoCartandPaymentSteps.click_on_the_Proceed_to_checkout_on_Address_tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3436000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I check the Terms of service and Click on the Proceed to checkout on Shipping tab",
+            "match": {
+              "location": "steps.AddtoCartandPaymentSteps.i_check_the_Terms_of_service_and_Click_on_the_Proceed_to_checkout_on_Shipping_tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1112000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I click on the Pay by wire option",
+            "match": {
+              "location": "steps.AddtoCartandPaymentSteps.i_click_on_the_Pay_by_wire_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2148000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I click on the I confirm my order",
+            "match": {
+              "location": "steps.AddtoCartandPaymentSteps.i_click_on_the_I_confirm_my_order()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I should be able to view the order confirmation page",
+            "match": {
+              "location": "steps.AddtoCartandPaymentSteps.i_should_be_able_to_view_the_order_confirmation_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-12T22:18:00.954Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8722000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ServiceHooks.setUp()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "When user tries to create account with existing email, an error should be prompted",
+        "description": "",
+        "id": "automation-practice-workflow;when-user-tries-to-create-account-with-existing-email--an-error-should-be-prompted",
+        "after": [
+          {
+            "result": {
+              "duration": 115000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ServiceHooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4506000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user is on the Sign in home page",
+            "match": {
+              "location": "steps.AddtoCartandPaymentSteps.user_is_on_the_Sign_in_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 149000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I provide the existing email address \u003cemail\u003e",
+            "match": {
+              "location": "steps.AddtoCartandPaymentSteps.i_provide_the_existing_email_address_email(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "email"
+                ]
+              },
+              {
+                "cells": [
+                  "arun@test1.com"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4084000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I click on the Create an account button",
+            "match": {
+              "location": "steps.AddtoCartandPaymentSteps.i_click_on_the_Create_an_account_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I should be getting an error message stating account already exists",
+            "match": {
+              "location": "steps.AddtoCartandPaymentSteps.i_should_be_getting_an_error_message_stating_account_already_exists()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-12T22:18:18.587Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8926000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ServiceHooks.setUp()"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "Existing user performs the sign",
+        "description": "",
+        "id": "automation-practice-workflow;existing-user-performs-the-sign",
+        "after": [
+          {
+            "result": {
+              "duration": 118000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ServiceHooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4244000000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "user is on the Sign in home page",
+            "match": {
+              "location": "steps.AddtoCartandPaymentSteps.user_is_on_the_Sign_in_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3203000000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I provide the existing email address \u003cemail\u003e and password \u003cpassword\u003e in the already registered section",
+            "match": {
+              "location": "steps.AddtoCartandPaymentSteps.i_provide_the_existing_email_address_email_and_password_password_in_the_already_registered_section(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "email",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "e@test.com",
+                  "12345"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7000000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I should be able to login and land in the account me page",
+            "match": {
+              "location": "steps.AddtoCartandPaymentSteps.i_should_be_able_to_login_and_land_in_the_account_me_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-12T22:18:35.095Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8346000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ServiceHooks.setUp()"
+            }
+          }
+        ],
+        "line": 48,
+        "name": "Create user account with all mandatory details",
+        "description": "",
+        "id": "automation-practice-workflow;create-user-account-with-all-mandatory-details",
+        "after": [
+          {
+            "result": {
+              "duration": 117000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ServiceHooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4225000000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "user is on the Sign in home page",
+            "match": {
+              "location": "steps.AddtoCartandPaymentSteps.user_is_on_the_Sign_in_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 236000000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I provide the email address",
+            "match": {
+              "location": "steps.AddtoCartandPaymentSteps.i_provide_the_email_address()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4070000000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I click on the Create an account button",
+            "match": {
+              "location": "steps.AddtoCartandPaymentSteps.i_click_on_the_Create_an_account_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 246000000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I enter the First name \u003cFirstName\u003e and Last Name \u003cLastName\u003e and Password \u003cPassword\u003e",
+            "match": {
+              "location": "steps.AddtoCartandPaymentSteps.i_enter_the_First_name_FirstName_and_Last_Name_LastName_and_Password_Password(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "FirstName",
+                  "LastName",
+                  "Password"
+                ]
+              },
+              {
+                "cells": [
+                  "Arun",
+                  "Srid",
+                  "Password123"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 257000000,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I select the Date \u003cDate\u003e Month \u003cMonth\u003e and Year \u003cYear\u003e",
+            "match": {
+              "location": "steps.AddtoCartandPaymentSteps.i_select_the_Date_Date_Month_Month_and_Year_Year(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Date",
+                  "Month",
+                  "Year"
+                ]
+              },
+              {
+                "cells": [
+                  "1",
+                  "3",
+                  "1980"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 548000000,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "I select the address details with FirstName \u003cFirstName\u003e LastName \u003cLastName\u003e Address \u003cAddress\u003e City \u003cCity\u003e State \u003cState\u003e ZipCode \u003cPostalCode\u003e Country \u003cCountry\u003e MobilePhone \u003cPhoneNumber\u003e",
+            "match": {
+              "location": "steps.AddtoCartandPaymentSteps.i_select_the_address_details_with_FirstName_FirstName_LastName_LastName_Address_Address_City_City_State_State_ZipCode_PostalCode_Country_Country_MobilePhone_PhoneNumber(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "FirstName",
+                  "LastName",
+                  "Address",
+                  "City",
+                  "State",
+                  "PostalCode",
+                  "Country",
+                  "PhoneNumber"
+                ]
+              },
+              {
+                "cells": [
+                  "Arun",
+                  "Srid",
+                  "436A",
+                  "US",
+                  "5",
+                  "00000",
+                  "21",
+                  "85462323"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3040000000,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "I click on the Register button",
+            "match": {
+              "location": "steps.AddtoCartandPaymentSteps.i_click_on_the_Register_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Automation Practice workflow",
+    "description": "",
+    "id": "automation-practice-workflow",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFiles/AutomationPractice.feature",
+    "tags": []
+  }
+]
