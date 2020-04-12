@@ -1,6 +1,6 @@
 # Automation Framework Overview and Run Summary 
 
-Tests are written using a combination of Cucumber, Junit & Maven.
+Tests are written using a combination of Cucumber, Junit & Maven using Page Object Model
 
 
 The project directory structure
@@ -13,7 +13,17 @@ The project directory structure
 
 ![](images/BDD-Scenarios.png)
 
+Step Definition
+
+![](images/StepDefinition.png)
+
+
+Test Runner
+
+![](images/TestRunner.png)
+
 ------------------------------------------------------------------------------------------------------------------------------
+<b> To RUN </b>
 
 1)Get the code
 
@@ -29,4 +39,5 @@ The project directory structure
 
    The test results will be recorded here target/cucumber-html-report. 
    ![](images/Test-Output.png)
-
+  
+   ![](images/Eclipse_TestResults.png)
